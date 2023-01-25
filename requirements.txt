@@ -1,0 +1,4 @@
+adafruit-circuitpython-neopixel
+pytest
+python-dotenv~=0.21.0
+rpi_ws281x

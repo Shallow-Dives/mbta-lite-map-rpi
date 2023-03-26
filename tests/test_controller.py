@@ -11,4 +11,4 @@ def test_api_payload():
     map_api_url: str = os.getenv('API_URL')
     response = requests.post(map_api_url,
                              json=brightness_overlay,
-                             headers={"Content-Type": "application/json"})
+                             headers={"Content-Type": "application/json", })

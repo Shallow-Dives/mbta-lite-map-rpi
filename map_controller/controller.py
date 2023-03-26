@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 import os
 import requests
 import time
-from typing import Dict, List, Optional, Tuple
+from typing import List, Tuple
 
 from map_controller.utils import check_wifi_connected
 from map_controller.overlay import brightness_overlay
